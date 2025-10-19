@@ -522,8 +522,8 @@ class DataHandler:
     def save_results(
         year_results: List[List],
         month_results: List[List],
-        year_output_file: str = 'year_results.csv',
-        month_output_file: str = 'month_results.csv'
+        year_output_file: str = 'year_results3.csv',
+        month_output_file: str = 'month_results3.csv'
     ) -> None:
         """
         Save model results to CSV files.
